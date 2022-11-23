@@ -1,0 +1,59 @@
+#Box_canvas3d {
+  border: red solid 4px;
+  width: 40vw;
+  height: 40vh;
+  display: none;
+}
+
+#Box_canvas3d #canvas3d {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+}
+
+#Box_ball_2D,
+#Box_ball_3D {
+  border: 5px solid blue;
+  width: 640px;
+  height: 480px;
+  display: none;
+}
+
+#Box_ball_2D #ball_2D {
+  position: relative;
+  transition: all 0.1s;
+  display: none;
+}
+
+#input_video,
+#output_canvas,
+#canvasOutput {
+  display: none;
+}
+
+/* #Box_canvas3d {
+  border: red solid 4px;
+  width: 40vw;
+  height: 40vh;
+}
+
+#Box_canvas3d #canvas3d {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#Box_ball_2D,
+#Box_ball_3D {
+  border: 5px solid blue;
+  width: 640px;
+  height: 480px;
+}
+
+#Box_ball_2D #ball_2D {
+  position: relative;
+  transition: all 0.1s;
+} */
